@@ -1,0 +1,57 @@
+@import '../../styles/mixins';
+
+.common-simple-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin:0;
+
+  .logo{
+    float: left;
+    margin: 10px;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 600;
+  }
+  .nav{
+    display: inline-block;
+    align-self: center;
+
+    ul {
+      font-weight: 300;
+      font-size:18px;
+      color: white;
+      margin: 10px;
+      list-style: none;
+      display: inline-block;
+
+
+      li {
+        color: white;
+        display: inline-block;
+        padding: 10px;
+
+      }
+    }
+  }
+
+
+
+  .start-selling{
+    float: right;
+    margin: 10px;
+  }
+
+
+
+
+}
+
+.login-signup{
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  color: white;
+}

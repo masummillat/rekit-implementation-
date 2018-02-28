@@ -1,0 +1,72 @@
+@import '../../styles/mixins';
+
+.profile-profile {
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+  .profile-section1{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: block;
+    align-items: center;
+    height: 60vh;
+    overflow: hidden;
+    .profile-picture{
+      align-items:center;
+      justify-content: center;
+      padding-top: 90px;
+      
+      img{
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        width: 15vw;
+        height: 15vw;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+    }
+  }
+  .profile-section2{
+    padding-top: 20px;
+    align-items: center;
+    width:100%;
+    height: 40vh;
+
+    span{
+      padding: 10px;
+    }
+    .selling {
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      margin:0;
+      display: flex;
+      background-color: #D63B2F;
+      width:100%;
+      height:auto;
+      padding: 10px;
+      p{
+
+        color: #ffffff;
+        display: inline;
+        padding: 5px;
+
+      }
+      .open{
+        border:1px solid #ffffff ;
+        border-radius:25%;
+      }
+    }
+
+
+  }
+
+}
